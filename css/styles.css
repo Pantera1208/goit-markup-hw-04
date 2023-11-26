@@ -429,16 +429,16 @@
         padding: 100px 0;
       }
     
-      .footer-container{
+    .footer-container{
         display: flex;
         align-items: baseline;
       }
 
-      .footer-container-logo-text{
+    .footer-container-logo-text{
         margin-right: 120px;
       }
 
-      .logo-footer {
+    .logo-footer {
         font-family: "Raleway", sans-serif;
         color:  #4d5ae5;
         font-size: 18px;
@@ -449,12 +449,12 @@
         margin-bottom: 16px;
       }
 
-      .logo-studio-footer{
+    .logo-studio-footer{
         color: #f4f4fd;
         display: inline-block;
       }
 
-      .footer-text {
+    .footer-text {
         color: #f4f4fd;
         font-size: 16px;
         line-height: 1.5;
@@ -463,7 +463,7 @@
       }
 
     
-      .text-social-footer{ 
+    .text-social-footer{ 
           font-weight: 500;
           font-size: 16px;
           line-height: 1.5;
@@ -472,12 +472,12 @@
           margin-bottom: 16px;
       }
 
-      .menu-social-footer {
+    .menu-social-footer {
         display: flex;
         gap: 16px;
       }
 
-      .list-social-footer {
+    .list-social-footer {
         width: 40px;
         height: 40px;
     }
@@ -491,7 +491,11 @@
       align-items: center;
       justify-content: center;
       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+    }
+
+    .social-link{
+    fill: #f4f4fd;
+    }
 
     .social-footer-link:hover,
     .social-footer-link:focus{
@@ -499,6 +503,4 @@
     }
 
 
-    .social-link{
-      fill: #f4f4fd;
-    }
+   
